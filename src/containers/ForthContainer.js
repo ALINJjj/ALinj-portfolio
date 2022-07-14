@@ -12,7 +12,7 @@ const ForthContainer = () => {
       <div className="col"></div>
       <div className="row ">
         <div className="col-md-6 col-sm-12 " align="center">
-          <Project title ="googele Keeper Note clone" desc = "i have made this web while training on react this app use react js as frontend and  firbase for saving note and user" image={keeper} />
+          <Project title ="google Keeper Note clone" desc = "i have made this web while training on react this app use react js as frontend and  firbase for saving note and user" image={keeper} />
         </div>
         <div className="col-md-6 col-sm-12 ml-4" align="center">
           <Project title ="Flash chat app" desc = " an flutter aplication this app use authentication to enter the chat room and use firbase as a database store chat history"  image={flashChat} />

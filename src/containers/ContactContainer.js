@@ -12,7 +12,7 @@ const ContactContainer = () => {
           so if you are imperessed Contact me 
       </p>
         
-      <a className={classes.btn} href="mailto:name@email.com">
+      <a className={classes.btn} href="mailto:alijanbeincs@gmail.com">
         CONTACT ME
       </a>
     </div>
