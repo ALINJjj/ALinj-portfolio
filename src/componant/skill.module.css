@@ -1,0 +1,32 @@
+.skills-row {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 0px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.desc {
+    margin-left: 1.5rem;
+    margin-top: 20px;
+}
+
+
+
+img {
+    height: 256;
+    width: 256 !important;
+}
+
+@media  screen and (max-width: 1000px){
+        .skills-row {
+            flex-direction: column;
+        }
+        .desc{
+            margin: 0px;
+        }
+}
+
