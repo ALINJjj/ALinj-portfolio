@@ -12,18 +12,18 @@ const ForthContainer = () => {
       <div className="col"></div>
       <div className="row ">
         <div className="col-md-6 col-sm-12 " align="center">
-          <Project image={keeper} />
+          <Project title ="googele Keeper Note clone" desc = "i have made this web while training on react this app use react js as frontend and  firbase for saving note and user" image={keeper} />
         </div>
         <div className="col-md-6 col-sm-12 ml-4" align="center">
-          <Project image={flashChat} />
+          <Project title ="Flash chat app" desc = " an flutter aplication this app use authentication to enter the chat room and use firbase as a database store chat history"  image={flashChat} />
         </div>
       </div>
       <div className="row">
         <div className="col-md-6 col-sm-12" align="center">
-          <Project image={snakegame} />
+          <Project title ="Snake Game " desc = "this game is coded using python especialy with turtle library"  image={snakegame} />
         </div>
         <div className="col-md-6 col-sm-12" align="center">
-          <Project image={neweb} />
+          <Project title ="phone cell" desc = "im working on a new project ,a real project, for a phone shop,using react js as a frontend and node js as backend wiht heroku for hosting"  image={neweb} />
         </div>
       </div>
     </React.Fragment>

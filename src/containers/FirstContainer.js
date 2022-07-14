@@ -9,9 +9,9 @@ const FirstCOntainer = () => {
         <Header />
         <CLoud class="top-cloud" />
         <h1>I'm Alinj</h1>
-        <h2>Fullstack Developer</h2>
+        <h2><span className={classes.under}>Front</span>end Developer</h2>
         <CLoud class="bottom-cloud" />
-        <img className="img-fluid" src={mountain} alt="mountain img" />
+        <img  className="img-fluid" src={mountain} alt="mountain img" />
       </div>
   );
 };

@@ -2,7 +2,7 @@ import classes from './skill.module.css';
 
 
 
-const Skill = ({image}) => {
+const Skill = ({title,desc,image}) => {
     return(
         <div className={classes["skills-row"]}>
         <img
@@ -11,11 +11,9 @@ const Skill = ({image}) => {
           alt=""
         />
         <div className={classes.desc}>
-        <h3>Lorem & Ipsum</h3>
+        <h3>{title}</h3>
         <p>
-          Lorem ipsum dolor sit amet, quis in duis, iaculis id felis.
-          Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam,
-          lectus ante, ut lorem eros.
+          {desc}
         </p>
         </div>
       </div>

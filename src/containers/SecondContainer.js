@@ -5,7 +5,8 @@ const SecondContainer = () => {
     <div className={classes.second}>
       <h2>Hello.</h2>
       <p className={classes.intro}>
-        im a junior Fullstack Developer 
+        im a junior Developer , a web Developer trying to find some expereince.
+        When it come To achive my Goal No one will stop me
       </p>
     </div>
   );
