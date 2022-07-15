@@ -55,3 +55,7 @@ hr {
 .row {
   margin: 0px auto;
 }
+
+.navbar-collapse {
+  text-align: right;
+}
